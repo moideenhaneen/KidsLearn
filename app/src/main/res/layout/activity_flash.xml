@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent"
+    tools:context=".flash">
+
+    <RelativeLayout
+        android:id="@+id/vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="KIDS LEARN"
+            android:textSize="40dp"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/icon"
+        android:layout_below="@+id/head"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:id="@+id/built"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Built By:"
+        android:layout_below="@id/vertical"
+        android:textSize="25sp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/reez"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mohammed Reez M G:"
+        android:layout_below="@id/built"
+        android:textSize="25sp"
+        android:layout_marginLeft="55dp"
+        android:textColor="@color/purple_700"/>
+    <TextView
+        android:id="@+id/haneen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Moideen Haneen K:"
+        android:layout_below="@id/reez"
+        android:textColor="@color/purple_700"
+        android:textSize="25sp"
+        android:layout_marginLeft="55dp"/>
+    <TextView
+        android:id="@+id/abid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hassan Abid M A:"
+        android:layout_below="@id/haneen"
+        android:textSize="25sp"
+        android:textColor="@color/purple_700"
+        android:layout_marginLeft="55dp"/>
+    <TextView
+        android:id="@+id/muba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mohammed Mubasheer:"
+        android:layout_below="@id/abid"
+        android:textSize="25sp"
+        android:textColor="@color/purple_700"
+        android:layout_marginLeft="55dp"/>
+
+
+
+
+
+
+
+</RelativeLayout>

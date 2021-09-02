@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">KidsLearn</string>
+
+    <string name="learn">Learn</string>
+    <string name="tst">Test</string>
+    <string name="crcl">Circle</string>
+    <string name="nxt">NEXT</string>
+    <string name="prev">PREV</string>
+    <string name="cr">Circle</string>
+    <string name="tr">Triangle</string>
+    <string name="cu">Cube</string>
+    <string name="re">Rectangle</string>
+</resources>
